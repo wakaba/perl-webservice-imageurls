@@ -1,6 +1,7 @@
 package WebService::ImageURLs;
 use strict;
 use warnings;
+our $VERSION = '1.0';
 use Exporter::Lite;
 
 our @EXPORT = qw(expand_image_permalink_url);
