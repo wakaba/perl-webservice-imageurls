@@ -2,6 +2,7 @@
     main_module_name => 'WebService::ImageURLs',
     file_names => [qw(
         lib/WebService/ImageURLs.pm
+        lib/WebService/ImageURLs.pod
         t/webservice-imageurls.t
         config/dist/webservice-imageurls.pi
     )],

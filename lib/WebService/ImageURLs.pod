@@ -1,0 +1,43 @@
+=head1 NAME
+
+WebService::ImageURLs - Image URL expansion
+
+=head1 SYNOPSIS
+
+  use WebService::ImageURLs;
+  $image_url = expand_image_permalink_url $permalink_url;
+
+=head1 DESCRIPTION
+
+The C<WebService::ImageURLs> module exports the function,
+C<expand_image_permalink_url>, to extract the thumbnail image URL from
+the permalink (or a short) URL of a image-hosting Web service, without
+accessing the page.
+
+=head1 HISTORY
+
+=over 4
+
+=item 1.0 (2012-01-31)
+
+Packaged.
+
+=back
+
+=head1 AUTHOR
+
+Wakaba (id:wakabatan) <wakabatan@hatena.ne.jp>.
+
+=head1 ACKNOWLEDGEMENTS
+
+This module was originally developed as part of Hatena Haiku 2010
+project <http://h.hatena.com/>.
+
+=head1 LICENSE
+
+Copyright 2010-2012 Hatena <http://www.hatena.ne.jp/>.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
