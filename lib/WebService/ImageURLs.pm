@@ -1,10 +1,21 @@
 package WebService::ImageURLs;
 use strict;
 use warnings;
-our $VERSION = '1.0';
-use Exporter::Lite;
+our $VERSION = '2.0';
+use Carp;
 
 our @EXPORT = qw(expand_image_permalink_url);
+
+sub import ($;@) {
+  my $from_class = shift;
+  my ($to_class, $file, $line) = caller;
+  no strict 'refs';
+  for (@_ ? @_ : @{$from_class . '::EXPORT'}) {
+    my $code = $from_class->can ($_)
+        or croak qq{"$_" is not exported by the $from_class module at $file line $line};
+    *{$to_class . '::' . $_} = $code;
+  }
+} # import
 
 sub expand_image_permalink_url ($) {
     my $url = shift or return undef;
