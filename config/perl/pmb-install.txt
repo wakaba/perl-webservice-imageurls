@@ -1,7 +1,7 @@
 Module::Metadata~1.000027
 Module::Runtime~0.014
 CPAN::Meta~2.150005
-Module::Build~0.4216
+Module::Build~0.4218
 Perl::OSType~1.009
 MRO::Compat~0.12
 ExtUtils::CBuilder~0.280224
