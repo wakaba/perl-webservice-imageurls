@@ -10,10 +10,10 @@ Parse::CPAN::Meta~1.4417
 parent~0.234
 Test::Class~0.50
 ExtUtils::ParseXS~3.30
-version~0.9916
+version~0.9917
 CPAN::Meta::YAML~0.018
 TAP::Harness~3.36
 JSON::PP~2.27400
-Test::More~1.302019
+Test::More~1.302022
 CPAN::Meta::Requirements~2.140
 Path::Class~0.36
