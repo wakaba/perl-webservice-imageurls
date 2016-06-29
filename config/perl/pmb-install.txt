@@ -6,7 +6,7 @@ Perl::OSType~1.010
 MRO::Compat~0.12
 ExtUtils::CBuilder~0.280224
 Try::Tiny~0.24
-Parse::CPAN::Meta~1.4417
+Parse::CPAN::Meta~1.4421
 parent~0.234
 Test::Class~0.50
 ExtUtils::ParseXS~3.30
