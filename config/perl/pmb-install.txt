@@ -14,6 +14,6 @@ Perl::OSType~1.010
 TAP::Harness~3.36
 Test::Class~0.50
 Test::More~1.302052
-Try::Tiny~0.24
+Try::Tiny~0.27
 parent~0.234
 version~0.9917
