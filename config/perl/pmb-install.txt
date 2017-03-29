@@ -1,4 +1,4 @@
-MRO::Compat~0.12
+MRO::Compat~0.13
 Module::Runtime~0.014
 Path::Class~0.37
 Test::Class~0.50
