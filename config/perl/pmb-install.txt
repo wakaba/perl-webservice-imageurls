@@ -3,4 +3,4 @@ Module::Runtime~0.016
 Path::Class~0.37
 Test::Class~0.50
 Test::More~1.302120
-Try::Tiny~0.29
+Try::Tiny~0.30
