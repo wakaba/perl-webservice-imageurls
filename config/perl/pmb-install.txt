@@ -1,6 +1,6 @@
 MRO::Compat~0.13
 Module::Runtime~0.016
 Path::Class~0.37
-Test::Class~0.50
-Test::More~1.302175
+Test::Class~0.52
+Test::More~1.302183
 Try::Tiny~0.30
